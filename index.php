@@ -29,7 +29,8 @@
 		<!-- NAVBAR -->
 		<nav class="navbar navbar-default navbar-fixed-top">
 			<div class="brand">
-				<a href="index.html"><img src="assets/img/logo-dark.png" alt="YuuCDN Logo" class="img-responsive logo"></a>
+				<!-- <a href="index.html"><img src="assets/img/logo-dark.png" alt="YuuCDN Logo" class="img-responsive logo"></a> -->
+				<a class="" style="font-weight: 800; font-size: 32px;" title="YuuCDN" href="/">YuuCDN</a>
 			</div>
 			<div class="container-fluid">
 				<div class="navbar-btn">
@@ -42,8 +43,15 @@
 		<div id="sidebar-nav" class="sidebar">
 			<div class="sidebar-scroll">
 				<?php
-					include 'views/sidebar.php';
+				include 'views/sidebar.php';
 				?>
+			</div>
+			<div style="margin-top: -1rem;">
+				<nav>
+					<ul class="nav">
+						<li><a target="_blank" href="https://documenter.getpostman.com/view/19496704/2s93Y5RLp1#e7164723-6507-4a58-b572-681ecafe3f10" class=""><i class="lnr lnr-home"></i> <span>Postman Documentation</span></a></li>
+					</ul>
+				</nav>
 			</div>
 		</div>
 		<!-- END LEFT SIDEBAR -->
@@ -51,7 +59,7 @@
 		<div class="main">
 			<!-- MAIN CONTENT -->
 			<?php
-				include 'views/index.php';
+			include 'views/index.php';
 			?>
 			<!-- END MAIN CONTENT -->
 		</div>
@@ -59,7 +67,8 @@
 		<div class="clearfix"></div>
 		<footer>
 			<div class="container-fluid">
-				<p class="copyright">&copy; 2017 <a href="https://www.themeineed.com" target="_blank">Theme I Need</a>. All Rights Reserved.</p>
+				<p class="copyright">&copy; <?php date_default_timezone_set('Asia/Jakarta');
+											echo date('Y'); ?> <a href="https://yuucdn.org" target="_blank">YuuCDN</a>. All Rights Reserved.</p>
 			</div>
 		</footer>
 	</div>

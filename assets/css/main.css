@@ -67,7 +67,7 @@ footer {
   width: 260px;
   height: 100%;
   float: left;
-  background-color: #2B333E;
+  background-color: #4e73df;
   position: fixed;
   left: 0; }
 
@@ -173,11 +173,11 @@ html.fullscreen-bg #wrapper {
     background-color: #f8f8f8; }
   .navbar-default .brand {
     float: left;
-    padding: 30px 39px;
+    padding: 17px 39px;
     background-color: #fff; }
   @media screen and (max-width: 1024px) {
     .navbar-default .brand {
-      padding-left: 30px;
+      padding-left: 17px;
       padding-right: 15px; } }
   @media screen and (max-width: 992px) {
     .navbar-default .brand {
@@ -361,7 +361,7 @@ ul.notifications > li {
   z-index: 9; }
   .sidebar .nav > li > a {
     padding: 18px 30px;
-    color: #AEB7C2;
+    color: #FFF;
     border-left: 5px solid transparent; }
     .sidebar .nav > li > a:hover, .sidebar .nav > li > a:focus, .sidebar .nav > li > a.active {
       color: #fff;
@@ -369,7 +369,7 @@ ul.notifications > li {
       .sidebar .nav > li > a:hover i, .sidebar .nav > li > a:focus i, .sidebar .nav > li > a.active i {
         color: #00AAFF; }
     .sidebar .nav > li > a:focus, .sidebar .nav > li > a.active {
-      background-color: #252c35;
+      background-color: #3f65d7;
       border-left-color: #00AAFF; }
     .sidebar .nav > li > a[data-toggle="collapse"] .icon-submenu {
       display: inline-block;
@@ -413,7 +413,7 @@ ul.notifications > li {
       position: relative;
       top: -2px; }
     .sidebar .nav .nav {
-      background-color: #252c35; }
+      background-color: #2048c0; }
       .sidebar .nav .nav > li > a {
         padding-left: 60px;
         padding-top: 10px;

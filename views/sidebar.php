@@ -1,6 +1,6 @@
 <nav>
     <ul class="nav">
-        <li><a href="#" class=""><i class="lnr lnr-home"></i> <span>Dashboard</span></a></li>
+        <li><a href="https://yuucdn.org" class=""><i class="lnr lnr-home"></i> <span>Dashboard</span></a></li>
         <li>
             <a href="#subAuth" data-toggle="collapse" class="collapsed"><i class="lnr lnr-file-empty"></i> <span>Authentication</span> <i class="icon-submenu lnr lnr-chevron-left"></i></a>
             <div id="subAuth" class="collapse ">
